@@ -1,0 +1,44 @@
+//https://www.youtube.com/watch?v=d6RFFNCAd9w
+Create repository
+1. create folder
+2. enter this folder
+3. # git init
+4. # ll #found file with .git
+######
+reboot terminal
+######
+5. create file 
+6. # touch sfml-app.cpp
+7. # git status
+8. # git add .
+9. # git commit -m "Init commit"
+10. # ssh-keygen
+11. press enter and 'y'
+12. # cat ~/.ssh/id_rsa.pub
+13. copy key
+14. lets go site github/setting/key_ssh/create new key/ paste key
+15. enter command # git remote add origin https://github.com/......./.......git
+16. git push origin HEAD
+
+1.git add .
+2.git commit -m 'commit'
+3.git push
+
+
+https://www.youtube.com/watch?v=te_ze95PMbY&list=PLU2ftbIeotGr_C-6t_lXH1Z3VgS5TLLdb&index=4
+1.git clone /.....
+2.cd in folder
+3.git branch //check vetka
+4.git checkout -b develop//create vetka develop
+5.git branch //check vetka
+6.git status // show our change
+3.git add .
+4.git commit -m "Init commit"
+###### проверяем в какой ветке
+git branch
+#####если в мастер
+#####соединяем ветку develop с главной
+git merge develop
+#####отправляем в репозиторий
+5.git push origin HEAD #запушить
+вводим регистрационные данные
